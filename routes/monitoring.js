@@ -3,7 +3,7 @@ var router = express.Router();
 const monitoring = require('../controller/monitoring')
 
 /* GET users listing. */
-router.post('/create', monitoring.create);
-router.get('/show', monitoring.showAll);
+router.post('/post', monitoring.create);
+router.get('/get', monitoring.showAll);
 
 module.exports = router;

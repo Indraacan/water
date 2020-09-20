@@ -6,7 +6,8 @@ module.exports = {
             pH: req.body.pH,
             turbidity: req.body.turbidity,
             TDS: req.body.TDS,
-            termo: req.body.termo
+            tempCelcius: req.body.tempCelcius,
+            tempFahren: req.body.tempFahren
         })
             .then((result) => res.json(result))
             .catch((err) => res.json(err));
