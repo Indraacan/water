@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var monitoring = require('./routes/monitoring');
 
 var app = express();
-mongoose.connect("mongodb://localhost/water",
+mongoose.connect("mongodb+srv://water:silver007@cluster0.sx304.mongodb.net/water?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true
