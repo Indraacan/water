@@ -14,7 +14,11 @@ const monitorSchema = new Schema({
         type: Number,
         required: true
     },
-    termo: {
+    tempCelcius: {
+        type: Number,
+        required: true
+    },
+    tempFahren: {
         type: Number,
         required: true
     }
